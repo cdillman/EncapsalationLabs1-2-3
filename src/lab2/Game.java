@@ -13,6 +13,7 @@ public abstract class Game extends Gui{
     private GameBoard world;
     
     public void runGame(){
-        
+        character.newOrLoad();
+        world.game();
     }
 }

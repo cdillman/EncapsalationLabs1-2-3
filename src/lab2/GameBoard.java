@@ -12,7 +12,7 @@ public abstract class GameBoard extends Game{
     private World1 world1;
     private World2 world2;
     
-    private void game(){
+    public void game(){
         world1.world1();
         
     }

@@ -17,9 +17,7 @@ public class Startup {
         employee.setSsn("333-1234");
         
           
-        employee.meetWithHrForBenefitAndSalryInfo();
-        employee.meetDepartmentStaff();
-        employee.reviewDeptPolicies();
+        employee.performOri();
 
         System.out.println("The employee's status is: " + employee.getStatus());
     }

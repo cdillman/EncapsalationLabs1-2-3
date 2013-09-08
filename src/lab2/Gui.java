@@ -9,9 +9,14 @@ package lab2;
  * @author Corbin
  */
 public class Gui {
+    private Game game;
     
     public void startGame(){
-        
+        game.runGame();
     }
     
+    public static void main(String[] args) {
+        
+   
+    }
 }
